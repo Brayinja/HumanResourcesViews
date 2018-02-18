@@ -1,0 +1,10 @@
+c:\users\alejandro\documents\visual studio 2017\Projects\HumanResources\HumanResources\bin\Debug\HumanResources.exe.config
+c:\users\alejandro\documents\visual studio 2017\Projects\HumanResources\HumanResources\bin\Debug\HumanResources.exe
+c:\users\alejandro\documents\visual studio 2017\Projects\HumanResources\HumanResources\bin\Debug\HumanResources.pdb
+c:\users\alejandro\documents\visual studio 2017\Projects\HumanResources\HumanResources\obj\Debug\HumanResources.csprojResolveAssemblyReference.cache
+c:\users\alejandro\documents\visual studio 2017\Projects\HumanResources\HumanResources\obj\Debug\HumanResources.Properties.Resources.resources
+c:\users\alejandro\documents\visual studio 2017\Projects\HumanResources\HumanResources\obj\Debug\HumanResources.csproj.GenerateResource.Cache
+c:\users\alejandro\documents\visual studio 2017\Projects\HumanResources\HumanResources\obj\Debug\HumanResources.csproj.CoreCompileInputs.cache
+c:\users\alejandro\documents\visual studio 2017\Projects\HumanResources\HumanResources\obj\Debug\HumanResources.exe
+c:\users\alejandro\documents\visual studio 2017\Projects\HumanResources\HumanResources\obj\Debug\HumanResources.pdb
+c:\users\alejandro\documents\visual studio 2017\Projects\HumanResources\HumanResources\obj\Debug\HumanResources.Login.resources
