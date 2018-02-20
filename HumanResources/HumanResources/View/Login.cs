@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HumanResources.View;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -45,7 +46,7 @@ namespace HumanResources
 
         private void Login_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         private void txtUsername_Enter(object sender, EventArgs e)
@@ -80,6 +81,9 @@ namespace HumanResources
         private void button1_Click(object sender, EventArgs e)
         {
             txtOops.Visible = true;
+            this.Hide();
+            View.MainMenu mainMenu = new View.MainMenu();
+            mainMenu.Show();
         }
 
         private void lblExit_Click(object sender, EventArgs e)

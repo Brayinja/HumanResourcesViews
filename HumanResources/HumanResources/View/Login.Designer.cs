@@ -42,7 +42,9 @@ namespace HumanResources
             this.pnlBlue = new System.Windows.Forms.PictureBox();
             this.lblExit = new System.Windows.Forms.Label();
             this.txtOops = new System.Windows.Forms.TextBox();
+            this.performanceCounter1 = new System.Diagnostics.PerformanceCounter();
             ((System.ComponentModel.ISupportInitialize)(this.pnlBlue)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnLogin
@@ -165,7 +167,7 @@ namespace HumanResources
             // 
             this.txtOops.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtOops.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.txtOops.Location = new System.Drawing.Point(35, 88);
+            this.txtOops.Location = new System.Drawing.Point(34, 93);
             this.txtOops.Name = "txtOops";
             this.txtOops.Size = new System.Drawing.Size(150, 13);
             this.txtOops.TabIndex = 16;
@@ -201,6 +203,7 @@ namespace HumanResources
             this.Load += new System.EventHandler(this.Login_Load);
             this.DoubleClick += new System.EventHandler(this.Login_DoubleClick);
             ((System.ComponentModel.ISupportInitialize)(this.pnlBlue)).EndInit();
+    
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -218,6 +221,7 @@ namespace HumanResources
         private PictureBox pnlBlue;
         private Label lblExit;
         private TextBox txtOops;
+        private System.Diagnostics.PerformanceCounter performanceCounter1;
     }
 }
 
