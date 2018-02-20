@@ -258,6 +258,7 @@
             this.lblExitSet.Size = new System.Drawing.Size(24, 13);
             this.lblExitSet.TabIndex = 66;
             this.lblExitSet.Text = "Exit";
+            this.lblExitSet.Click += new System.EventHandler(this.lblExitSet_Click);
             // 
             // lblSetSet
             // 
@@ -270,6 +271,7 @@
             this.lblSetSet.Size = new System.Drawing.Size(45, 13);
             this.lblSetSet.TabIndex = 65;
             this.lblSetSet.Text = "Settings";
+            this.lblSetSet.Click += new System.EventHandler(this.lblSetSet_Click);
             // 
             // lblVacSet
             // 
@@ -282,6 +284,7 @@
             this.lblVacSet.Size = new System.Drawing.Size(54, 13);
             this.lblVacSet.TabIndex = 64;
             this.lblVacSet.Text = "Vacations";
+            this.lblVacSet.Click += new System.EventHandler(this.lblVacSet_Click);
             // 
             // lblAdminSet
             // 
@@ -294,6 +297,7 @@
             this.lblAdminSet.Size = new System.Drawing.Size(72, 13);
             this.lblAdminSet.TabIndex = 63;
             this.lblAdminSet.Text = "Administrators";
+            this.lblAdminSet.Click += new System.EventHandler(this.lblAdminSet_Click);
             // 
             // lblPaySet
             // 
@@ -306,6 +310,7 @@
             this.lblPaySet.Size = new System.Drawing.Size(53, 13);
             this.lblPaySet.TabIndex = 62;
             this.lblPaySet.Text = "Payments";
+            this.lblPaySet.Click += new System.EventHandler(this.lblPaySet_Click);
             // 
             // lblEmpSet
             // 
@@ -318,6 +323,7 @@
             this.lblEmpSet.Size = new System.Drawing.Size(58, 13);
             this.lblEmpSet.TabIndex = 61;
             this.lblEmpSet.Text = "Employees";
+            this.lblEmpSet.Click += new System.EventHandler(this.lblEmpSet_Click);
             // 
             // pictExitSet
             // 
@@ -420,62 +426,62 @@
             // barEmpSet
             // 
             this.barEmpSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barEmpSet.Enabled = false;
             this.barEmpSet.Location = new System.Drawing.Point(0, 133);
             this.barEmpSet.Name = "barEmpSet";
             this.barEmpSet.Size = new System.Drawing.Size(148, 41);
             this.barEmpSet.TabIndex = 76;
             this.barEmpSet.TabStop = false;
+            this.barEmpSet.Click += new System.EventHandler(this.barEmpSet_Click);
             // 
             // barPaySet
             // 
             this.barPaySet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barPaySet.Enabled = false;
             this.barPaySet.Location = new System.Drawing.Point(0, 173);
             this.barPaySet.Name = "barPaySet";
             this.barPaySet.Size = new System.Drawing.Size(148, 41);
             this.barPaySet.TabIndex = 77;
             this.barPaySet.TabStop = false;
+            this.barPaySet.Click += new System.EventHandler(this.barPaySet_Click);
             // 
             // barVacSet
             // 
             this.barVacSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barVacSet.Enabled = false;
             this.barVacSet.Location = new System.Drawing.Point(0, 213);
             this.barVacSet.Name = "barVacSet";
             this.barVacSet.Size = new System.Drawing.Size(148, 41);
             this.barVacSet.TabIndex = 78;
             this.barVacSet.TabStop = false;
+            this.barVacSet.Click += new System.EventHandler(this.barVacSet_Click);
             // 
             // barAdminSet
             // 
             this.barAdminSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barAdminSet.Enabled = false;
             this.barAdminSet.Location = new System.Drawing.Point(0, 253);
             this.barAdminSet.Name = "barAdminSet";
             this.barAdminSet.Size = new System.Drawing.Size(148, 41);
             this.barAdminSet.TabIndex = 79;
             this.barAdminSet.TabStop = false;
+            this.barAdminSet.Click += new System.EventHandler(this.barAdminSet_Click);
             // 
             // barSetSet
             // 
             this.barSetSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barSetSet.Enabled = false;
             this.barSetSet.Location = new System.Drawing.Point(0, 293);
             this.barSetSet.Name = "barSetSet";
             this.barSetSet.Size = new System.Drawing.Size(148, 41);
             this.barSetSet.TabIndex = 80;
             this.barSetSet.TabStop = false;
+            this.barSetSet.Click += new System.EventHandler(this.barSetSet_Click);
             // 
             // barExitSet
             // 
             this.barExitSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barExitSet.Enabled = false;
             this.barExitSet.Location = new System.Drawing.Point(0, 334);
             this.barExitSet.Name = "barExitSet";
             this.barExitSet.Size = new System.Drawing.Size(148, 41);
             this.barExitSet.TabIndex = 81;
             this.barExitSet.TabStop = false;
+            this.barExitSet.Click += new System.EventHandler(this.barExitSet_Click);
             // 
             // tabAdministrators
             // 
@@ -517,6 +523,7 @@
             this.lblExitAdmin.Size = new System.Drawing.Size(24, 13);
             this.lblExitAdmin.TabIndex = 66;
             this.lblExitAdmin.Text = "Exit";
+            this.lblExitAdmin.Click += new System.EventHandler(this.lblExitAdmin_Click);
             // 
             // pictExitAdmin
             // 
@@ -542,6 +549,7 @@
             this.lblSetAdmin.Size = new System.Drawing.Size(45, 13);
             this.lblSetAdmin.TabIndex = 65;
             this.lblSetAdmin.Text = "Settings";
+            this.lblSetAdmin.Click += new System.EventHandler(this.lblSetAdmin_Click);
             // 
             // lblVacAdmin
             // 
@@ -554,6 +562,7 @@
             this.lblVacAdmin.Size = new System.Drawing.Size(54, 13);
             this.lblVacAdmin.TabIndex = 64;
             this.lblVacAdmin.Text = "Vacations";
+            this.lblVacAdmin.Click += new System.EventHandler(this.lblVacAdmin_Click);
             // 
             // pictSetAdmin
             // 
@@ -579,6 +588,7 @@
             this.lblAdminAdmin.Size = new System.Drawing.Size(72, 13);
             this.lblAdminAdmin.TabIndex = 63;
             this.lblAdminAdmin.Text = "Administrators";
+            this.lblAdminAdmin.Click += new System.EventHandler(this.lblAdminAdmin_Click);
             // 
             // pictVacAdmin
             // 
@@ -604,6 +614,7 @@
             this.lblPayAdmin.Size = new System.Drawing.Size(53, 13);
             this.lblPayAdmin.TabIndex = 62;
             this.lblPayAdmin.Text = "Payments";
+            this.lblPayAdmin.Click += new System.EventHandler(this.lblPayAdmin_Click);
             // 
             // pictAdminAdmin
             // 
@@ -629,6 +640,7 @@
             this.lblEmpAdmin.Size = new System.Drawing.Size(58, 13);
             this.lblEmpAdmin.TabIndex = 61;
             this.lblEmpAdmin.Text = "Employees";
+            this.lblEmpAdmin.Click += new System.EventHandler(this.lblEmpAdmin_Click);
             // 
             // pictPayAdmin
             // 
@@ -679,62 +691,62 @@
             // barEmpAdmin
             // 
             this.barEmpAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barEmpAdmin.Enabled = false;
             this.barEmpAdmin.Location = new System.Drawing.Point(0, 133);
             this.barEmpAdmin.Name = "barEmpAdmin";
             this.barEmpAdmin.Size = new System.Drawing.Size(148, 41);
             this.barEmpAdmin.TabIndex = 68;
             this.barEmpAdmin.TabStop = false;
+            this.barEmpAdmin.Click += new System.EventHandler(this.barEmpAdmin_Click);
             // 
             // barPayAdmin
             // 
             this.barPayAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barPayAdmin.Enabled = false;
             this.barPayAdmin.Location = new System.Drawing.Point(0, 173);
             this.barPayAdmin.Name = "barPayAdmin";
             this.barPayAdmin.Size = new System.Drawing.Size(148, 41);
             this.barPayAdmin.TabIndex = 69;
             this.barPayAdmin.TabStop = false;
+            this.barPayAdmin.Click += new System.EventHandler(this.barPayAdmin_Click);
             // 
             // barVacAdmin
             // 
             this.barVacAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barVacAdmin.Enabled = false;
             this.barVacAdmin.Location = new System.Drawing.Point(0, 213);
             this.barVacAdmin.Name = "barVacAdmin";
             this.barVacAdmin.Size = new System.Drawing.Size(148, 41);
             this.barVacAdmin.TabIndex = 70;
             this.barVacAdmin.TabStop = false;
+            this.barVacAdmin.Click += new System.EventHandler(this.barVacAdmin_Click);
             // 
             // barAdminAdmin
             // 
             this.barAdminAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barAdminAdmin.Enabled = false;
             this.barAdminAdmin.Location = new System.Drawing.Point(0, 253);
             this.barAdminAdmin.Name = "barAdminAdmin";
             this.barAdminAdmin.Size = new System.Drawing.Size(148, 41);
             this.barAdminAdmin.TabIndex = 71;
             this.barAdminAdmin.TabStop = false;
+            this.barAdminAdmin.Click += new System.EventHandler(this.barAdminAdmin_Click);
             // 
             // barSetAdmin
             // 
             this.barSetAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barSetAdmin.Enabled = false;
             this.barSetAdmin.Location = new System.Drawing.Point(0, 293);
             this.barSetAdmin.Name = "barSetAdmin";
             this.barSetAdmin.Size = new System.Drawing.Size(148, 41);
             this.barSetAdmin.TabIndex = 72;
             this.barSetAdmin.TabStop = false;
+            this.barSetAdmin.Click += new System.EventHandler(this.barSetAdmin_Click);
             // 
             // barExitAdmin
             // 
             this.barExitAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barExitAdmin.Enabled = false;
             this.barExitAdmin.Location = new System.Drawing.Point(0, 334);
             this.barExitAdmin.Name = "barExitAdmin";
             this.barExitAdmin.Size = new System.Drawing.Size(148, 41);
             this.barExitAdmin.TabIndex = 73;
             this.barExitAdmin.TabStop = false;
+            this.barExitAdmin.Click += new System.EventHandler(this.barExitAdmin_Click);
             // 
             // tabVacations
             // 
@@ -776,6 +788,7 @@
             this.lblExitVac.Size = new System.Drawing.Size(24, 13);
             this.lblExitVac.TabIndex = 53;
             this.lblExitVac.Text = "Exit";
+            this.lblExitVac.Click += new System.EventHandler(this.lblExitVac_Click);
             // 
             // pictExitVac
             // 
@@ -801,6 +814,7 @@
             this.lblSetVac.Size = new System.Drawing.Size(45, 13);
             this.lblSetVac.TabIndex = 52;
             this.lblSetVac.Text = "Settings";
+            this.lblSetVac.Click += new System.EventHandler(this.lblSetVac_Click);
             // 
             // lblVacVac
             // 
@@ -813,6 +827,7 @@
             this.lblVacVac.Size = new System.Drawing.Size(54, 13);
             this.lblVacVac.TabIndex = 51;
             this.lblVacVac.Text = "Vacations";
+            this.lblVacVac.Click += new System.EventHandler(this.lblVacVac_Click);
             // 
             // pictSetVac
             // 
@@ -838,6 +853,7 @@
             this.lblAdminVac.Size = new System.Drawing.Size(72, 13);
             this.lblAdminVac.TabIndex = 50;
             this.lblAdminVac.Text = "Administrators";
+            this.lblAdminVac.Click += new System.EventHandler(this.lblAdminVac_Click);
             // 
             // pictVacVac
             // 
@@ -863,6 +879,7 @@
             this.lblPayVac.Size = new System.Drawing.Size(53, 13);
             this.lblPayVac.TabIndex = 49;
             this.lblPayVac.Text = "Payments";
+            this.lblPayVac.Click += new System.EventHandler(this.lblPayVac_Click);
             // 
             // pictAdminVac
             // 
@@ -888,6 +905,7 @@
             this.lblEmpVac.Size = new System.Drawing.Size(58, 13);
             this.lblEmpVac.TabIndex = 48;
             this.lblEmpVac.Text = "Employees";
+            this.lblEmpVac.Click += new System.EventHandler(this.lblEmpVac_Click);
             // 
             // pictPayVac
             // 
@@ -938,62 +956,62 @@
             // barEmpVac
             // 
             this.barEmpVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barEmpVac.Enabled = false;
             this.barEmpVac.Location = new System.Drawing.Point(0, 133);
             this.barEmpVac.Name = "barEmpVac";
             this.barEmpVac.Size = new System.Drawing.Size(148, 41);
             this.barEmpVac.TabIndex = 55;
             this.barEmpVac.TabStop = false;
+            this.barEmpVac.Click += new System.EventHandler(this.barEmpVac_Click);
             // 
             // barPayVac
             // 
             this.barPayVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barPayVac.Enabled = false;
             this.barPayVac.Location = new System.Drawing.Point(0, 173);
             this.barPayVac.Name = "barPayVac";
             this.barPayVac.Size = new System.Drawing.Size(148, 41);
             this.barPayVac.TabIndex = 56;
             this.barPayVac.TabStop = false;
+            this.barPayVac.Click += new System.EventHandler(this.barPayVac_Click);
             // 
             // barVacVac
             // 
             this.barVacVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barVacVac.Enabled = false;
             this.barVacVac.Location = new System.Drawing.Point(0, 213);
             this.barVacVac.Name = "barVacVac";
             this.barVacVac.Size = new System.Drawing.Size(148, 41);
             this.barVacVac.TabIndex = 57;
             this.barVacVac.TabStop = false;
+            this.barVacVac.Click += new System.EventHandler(this.barVacVac_Click);
             // 
             // barAdminVac
             // 
             this.barAdminVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barAdminVac.Enabled = false;
             this.barAdminVac.Location = new System.Drawing.Point(0, 253);
             this.barAdminVac.Name = "barAdminVac";
             this.barAdminVac.Size = new System.Drawing.Size(148, 41);
             this.barAdminVac.TabIndex = 58;
             this.barAdminVac.TabStop = false;
+            this.barAdminVac.Click += new System.EventHandler(this.barAdminVac_Click);
             // 
             // barSetVac
             // 
             this.barSetVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barSetVac.Enabled = false;
             this.barSetVac.Location = new System.Drawing.Point(0, 293);
             this.barSetVac.Name = "barSetVac";
             this.barSetVac.Size = new System.Drawing.Size(148, 41);
             this.barSetVac.TabIndex = 59;
             this.barSetVac.TabStop = false;
+            this.barSetVac.Click += new System.EventHandler(this.barSetVac_Click);
             // 
             // barExitVac
             // 
             this.barExitVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barExitVac.Enabled = false;
             this.barExitVac.Location = new System.Drawing.Point(0, 334);
             this.barExitVac.Name = "barExitVac";
             this.barExitVac.Size = new System.Drawing.Size(148, 41);
             this.barExitVac.TabIndex = 60;
             this.barExitVac.TabStop = false;
+            this.barExitVac.Click += new System.EventHandler(this.barExitVac_Click);
             // 
             // tabPayments
             // 
@@ -1036,6 +1054,7 @@
             this.lblExitPay.Size = new System.Drawing.Size(24, 13);
             this.lblExitPay.TabIndex = 40;
             this.lblExitPay.Text = "Exit";
+            this.lblExitPay.Click += new System.EventHandler(this.lblExitPay_Click);
             // 
             // pictExitPay
             // 
@@ -1061,6 +1080,7 @@
             this.lblSetPay.Size = new System.Drawing.Size(45, 13);
             this.lblSetPay.TabIndex = 39;
             this.lblSetPay.Text = "Settings";
+            this.lblSetPay.Click += new System.EventHandler(this.lblSetPay_Click);
             // 
             // lblVacPay
             // 
@@ -1073,6 +1093,7 @@
             this.lblVacPay.Size = new System.Drawing.Size(54, 13);
             this.lblVacPay.TabIndex = 38;
             this.lblVacPay.Text = "Vacations";
+            this.lblVacPay.Click += new System.EventHandler(this.lblVacPay_Click);
             // 
             // pictSetPay
             // 
@@ -1098,6 +1119,7 @@
             this.lblAdminPay.Size = new System.Drawing.Size(72, 13);
             this.lblAdminPay.TabIndex = 37;
             this.lblAdminPay.Text = "Administrators";
+            this.lblAdminPay.Click += new System.EventHandler(this.lblAdminPay_Click);
             // 
             // pictVacPay
             // 
@@ -1123,6 +1145,7 @@
             this.lblPayPay.Size = new System.Drawing.Size(53, 13);
             this.lblPayPay.TabIndex = 36;
             this.lblPayPay.Text = "Payments";
+            this.lblPayPay.Click += new System.EventHandler(this.lblPayPay_Click);
             // 
             // pictAdminPay
             // 
@@ -1148,6 +1171,7 @@
             this.lblEmpPay.Size = new System.Drawing.Size(58, 13);
             this.lblEmpPay.TabIndex = 35;
             this.lblEmpPay.Text = "Employees";
+            this.lblEmpPay.Click += new System.EventHandler(this.lblEmpPay_Click);
             // 
             // pictPayPay
             // 
@@ -1198,62 +1222,62 @@
             // barEmpPay
             // 
             this.barEmpPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barEmpPay.Enabled = false;
             this.barEmpPay.Location = new System.Drawing.Point(0, 133);
             this.barEmpPay.Name = "barEmpPay";
             this.barEmpPay.Size = new System.Drawing.Size(148, 41);
             this.barEmpPay.TabIndex = 43;
             this.barEmpPay.TabStop = false;
+            this.barEmpPay.Click += new System.EventHandler(this.barEmpPay_Click);
             // 
             // barPayPay
             // 
             this.barPayPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barPayPay.Enabled = false;
             this.barPayPay.Location = new System.Drawing.Point(0, 173);
             this.barPayPay.Name = "barPayPay";
             this.barPayPay.Size = new System.Drawing.Size(148, 41);
             this.barPayPay.TabIndex = 44;
             this.barPayPay.TabStop = false;
+            this.barPayPay.Click += new System.EventHandler(this.barPayPay_Click);
             // 
             // barVacPay
             // 
             this.barVacPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barVacPay.Enabled = false;
             this.barVacPay.Location = new System.Drawing.Point(0, 213);
             this.barVacPay.Name = "barVacPay";
             this.barVacPay.Size = new System.Drawing.Size(148, 41);
             this.barVacPay.TabIndex = 45;
             this.barVacPay.TabStop = false;
+            this.barVacPay.Click += new System.EventHandler(this.barVacPay_Click);
             // 
             // barAdminPay
             // 
             this.barAdminPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barAdminPay.Enabled = false;
             this.barAdminPay.Location = new System.Drawing.Point(0, 253);
             this.barAdminPay.Name = "barAdminPay";
             this.barAdminPay.Size = new System.Drawing.Size(148, 41);
             this.barAdminPay.TabIndex = 46;
             this.barAdminPay.TabStop = false;
+            this.barAdminPay.Click += new System.EventHandler(this.barAdminPay_Click);
             // 
             // pictureBox14
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.pictureBox14.Enabled = false;
             this.pictureBox14.Location = new System.Drawing.Point(0, 293);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(148, 41);
             this.pictureBox14.TabIndex = 47;
             this.pictureBox14.TabStop = false;
+            this.pictureBox14.Click += new System.EventHandler(this.pictureBox14_Click_1);
             // 
             // barExitPay
             // 
             this.barExitPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barExitPay.Enabled = false;
             this.barExitPay.Location = new System.Drawing.Point(0, 334);
             this.barExitPay.Name = "barExitPay";
             this.barExitPay.Size = new System.Drawing.Size(148, 41);
             this.barExitPay.TabIndex = 48;
             this.barExitPay.TabStop = false;
+            this.barExitPay.Click += new System.EventHandler(this.barExitPay_Click);
             // 
             // tabEmployees
             // 
@@ -1306,6 +1330,7 @@
             this.lblExitEmp.Size = new System.Drawing.Size(24, 13);
             this.lblExitEmp.TabIndex = 27;
             this.lblExitEmp.Text = "Exit";
+            this.lblExitEmp.Click += new System.EventHandler(this.lblExitEmp_Click);
             // 
             // lblSetEmp
             // 
@@ -1318,6 +1343,7 @@
             this.lblSetEmp.Size = new System.Drawing.Size(45, 13);
             this.lblSetEmp.TabIndex = 26;
             this.lblSetEmp.Text = "Settings";
+            this.lblSetEmp.Click += new System.EventHandler(this.lblSetEmp_Click);
             // 
             // lblVacEmp
             // 
@@ -1330,6 +1356,7 @@
             this.lblVacEmp.Size = new System.Drawing.Size(54, 13);
             this.lblVacEmp.TabIndex = 25;
             this.lblVacEmp.Text = "Vacations";
+            this.lblVacEmp.Click += new System.EventHandler(this.lblVacEmp_Click);
             // 
             // llblAdminEmp
             // 
@@ -1342,6 +1369,7 @@
             this.llblAdminEmp.Size = new System.Drawing.Size(72, 13);
             this.llblAdminEmp.TabIndex = 24;
             this.llblAdminEmp.Text = "Administrators";
+            this.llblAdminEmp.Click += new System.EventHandler(this.llblAdminEmp_Click);
             // 
             // lblPayEmp
             // 
@@ -1354,6 +1382,7 @@
             this.lblPayEmp.Size = new System.Drawing.Size(53, 13);
             this.lblPayEmp.TabIndex = 23;
             this.lblPayEmp.Text = "Payments";
+            this.lblPayEmp.Click += new System.EventHandler(this.lblPayEmp_Click);
             // 
             // lblEmpEmp
             // 
@@ -1366,6 +1395,7 @@
             this.lblEmpEmp.Size = new System.Drawing.Size(58, 13);
             this.lblEmpEmp.TabIndex = 22;
             this.lblEmpEmp.Text = "Employees";
+            this.lblEmpEmp.Click += new System.EventHandler(this.lblEmpEmp_Click);
             // 
             // pictExitEmp
             // 
@@ -1458,62 +1488,62 @@
             // barEmpEmp
             // 
             this.barEmpEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barEmpEmp.Enabled = false;
             this.barEmpEmp.Location = new System.Drawing.Point(0, 133);
             this.barEmpEmp.Name = "barEmpEmp";
             this.barEmpEmp.Size = new System.Drawing.Size(148, 41);
             this.barEmpEmp.TabIndex = 29;
             this.barEmpEmp.TabStop = false;
+            this.barEmpEmp.Click += new System.EventHandler(this.barEmpEmp_Click);
             // 
             // barPayEmp
             // 
             this.barPayEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barPayEmp.Enabled = false;
             this.barPayEmp.Location = new System.Drawing.Point(0, 173);
             this.barPayEmp.Name = "barPayEmp";
             this.barPayEmp.Size = new System.Drawing.Size(148, 41);
             this.barPayEmp.TabIndex = 30;
             this.barPayEmp.TabStop = false;
+            this.barPayEmp.Click += new System.EventHandler(this.barPayEmp_Click);
             // 
             // barVacEmp
             // 
             this.barVacEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barVacEmp.Enabled = false;
             this.barVacEmp.Location = new System.Drawing.Point(0, 213);
             this.barVacEmp.Name = "barVacEmp";
             this.barVacEmp.Size = new System.Drawing.Size(148, 41);
             this.barVacEmp.TabIndex = 31;
             this.barVacEmp.TabStop = false;
+            this.barVacEmp.Click += new System.EventHandler(this.barVacEmp_Click);
             // 
             // barAdminEmp
             // 
             this.barAdminEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barAdminEmp.Enabled = false;
             this.barAdminEmp.Location = new System.Drawing.Point(0, 253);
             this.barAdminEmp.Name = "barAdminEmp";
             this.barAdminEmp.Size = new System.Drawing.Size(148, 41);
             this.barAdminEmp.TabIndex = 32;
             this.barAdminEmp.TabStop = false;
+            this.barAdminEmp.Click += new System.EventHandler(this.barAdminEmp_Click);
             // 
             // barSetEmp
             // 
             this.barSetEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barSetEmp.Enabled = false;
             this.barSetEmp.Location = new System.Drawing.Point(0, 293);
             this.barSetEmp.Name = "barSetEmp";
             this.barSetEmp.Size = new System.Drawing.Size(148, 41);
             this.barSetEmp.TabIndex = 33;
             this.barSetEmp.TabStop = false;
+            this.barSetEmp.Click += new System.EventHandler(this.barSetEmp_Click);
             // 
             // barExitEmp
             // 
             this.barExitEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.barExitEmp.Enabled = false;
             this.barExitEmp.Location = new System.Drawing.Point(0, 334);
             this.barExitEmp.Name = "barExitEmp";
             this.barExitEmp.Size = new System.Drawing.Size(148, 41);
             this.barExitEmp.TabIndex = 34;
             this.barExitEmp.TabStop = false;
+            this.barExitEmp.Click += new System.EventHandler(this.barExitEmp_Click);
             // 
             // tabControl
             // 

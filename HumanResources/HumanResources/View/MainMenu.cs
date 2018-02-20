@@ -213,5 +213,305 @@ namespace HumanResources.View
             }
 
         }
+
+        private void lblEmpEmp_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 0;
+        }
+
+        private void barEmpEmp_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 0;
+        }
+
+        private void lblPayEmp_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 1;
+        }
+
+        private void barPayEmp_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 1;
+        }
+
+        private void lblVacEmp_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 2;
+        }
+
+        private void barVacEmp_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 2;
+        }
+
+        private void llblAdminEmp_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 3;
+        }
+
+        private void barAdminEmp_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 3;
+        }
+
+        private void lblSetEmp_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 4;
+        }
+
+        private void barSetEmp_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 4;
+        }
+
+        private void lblExitEmp_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void barExitEmp_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void lblEmpPay_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 0;
+        }
+
+        private void barEmpPay_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 0;
+        }
+
+        private void lblPayPay_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 1;
+        }
+
+        private void barPayPay_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 1;
+        }
+
+        private void lblVacPay_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 2;
+        }
+
+        private void barVacPay_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 2;
+        }
+
+        private void lblAdminPay_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 3;
+        }
+
+        private void barAdminPay_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 3;
+        }
+
+        private void lblSetPay_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 4;
+        }
+
+        private void pictureBox14_Click_1(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 4;
+        }
+
+        private void lblExitPay_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void barExitPay_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void lblEmpVac_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 0;
+        }
+
+        private void barEmpVac_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 0;
+        }
+
+        private void lblPayVac_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 1;
+        }
+
+        private void barPayVac_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 1;
+        }
+
+        private void lblVacVac_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 2;
+        }
+
+        private void barVacVac_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 2;
+        }
+
+        private void lblAdminVac_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 3;
+        }
+
+        private void barAdminVac_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 3;
+        }
+
+        private void lblSetVac_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 4;
+        }
+
+        private void barSetVac_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 4;
+        }
+
+        private void lblExitVac_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void barExitVac_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void barEmpAdmin_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 0;
+        }
+
+        private void lblEmpAdmin_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 0;
+        }
+
+        private void lblPayAdmin_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 1;
+        }
+
+        private void barPayAdmin_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 1;
+        }
+
+        private void lblVacAdmin_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 2;
+        }
+
+        private void barVacAdmin_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 2;
+        }
+
+        private void lblAdminAdmin_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 3;
+        }
+
+        private void barAdminAdmin_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 3;
+        }
+
+        private void barSetAdmin_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 4;
+        }
+
+        private void lblSetAdmin_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 4;
+        }
+
+        private void lblExitAdmin_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void barExitAdmin_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void barEmpSet_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 0;
+        }
+
+        private void lblEmpSet_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 0;
+        }
+
+        private void lblPaySet_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 1;
+        }
+
+        private void barPaySet_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 1;
+        }
+
+        private void lblVacSet_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 2;
+        }
+
+        private void barVacSet_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 2;
+        }
+
+        private void lblAdminSet_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 3;
+        }
+
+        private void barAdminSet_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 3;
+        }
+
+        private void lblSetSet_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 4;
+        }
+
+        private void barSetSet_Click(object sender, EventArgs e)
+        {
+            tabControl.SelectedIndex = 4;
+        }
+
+        private void lblExitSet_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void barExitSet_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
