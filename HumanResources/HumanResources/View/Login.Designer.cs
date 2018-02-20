@@ -203,7 +203,7 @@ namespace HumanResources
             this.Load += new System.EventHandler(this.Login_Load);
             this.DoubleClick += new System.EventHandler(this.Login_DoubleClick);
             ((System.ComponentModel.ISupportInitialize)(this.pnlBlue)).EndInit();
-    
+            //((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

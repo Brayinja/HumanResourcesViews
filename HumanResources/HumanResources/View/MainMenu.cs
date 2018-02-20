@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,10 +13,24 @@ namespace HumanResources.View
 {
     public partial class MainMenu : Form
     {
+        string path = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
+
         public MainMenu()
         {
             InitializeComponent();
         }
+
+        protected override void WndProc(ref Message m)
+        {
+            base.WndProc(ref m);
+            if (m.Msg == WM_NCHITTEST)
+                m.Result = (IntPtr)(HT_CAPTION);
+        }
+
+        private const int WM_NCHITTEST = 0x84;
+        private const int HT_CLIENT = 0x1;
+        private const int HT_CAPTION = 0x2;
+
 
         private void txtEmployees_TextChanged(object sender, EventArgs e)
         {
@@ -186,7 +201,11 @@ namespace HumanResources.View
         {
             if (tabControl.SelectedIndex == 0)
             {
-                barEmpEmp.BackColor = Color.CadetBlue;
+                barEmpEmp.BackColor = Color.FromArgb(42,162,255);
+                lblEmpEmp.ForeColor = Color.White;
+                lblEmpEmp.BackColor = Color.FromArgb(42, 162, 255);
+                pictEmpEmp.BackColor = Color.FromArgb(42, 162, 255);
+                pictEmpEmp.Image = Image.FromFile(path + "/Resources/Employee White.png");
             }
         }
 
@@ -194,22 +213,38 @@ namespace HumanResources.View
         {
             if (tabControl.SelectedIndex == 1)
             {
-                barPayPay.BackColor = Color.CadetBlue;
+                barPayPay.BackColor = Color.FromArgb(42, 162, 255);
+                lblPayPay.ForeColor = Color.White;
+                lblPayPay.BackColor = Color.FromArgb(42, 162, 255);
+                pictPayPay.BackColor = Color.FromArgb(42, 162, 255);
+                pictPayPay.Image = Image.FromFile(path + "/Resources/Dollar White.png");
             }
 
             if (tabControl.SelectedIndex == 2)
             {
-                barVacVac.BackColor = Color.CadetBlue;
+                barVacVac.BackColor = Color.FromArgb(42, 162, 255);
+                lblVacVac.ForeColor = Color.White;
+                lblVacVac.BackColor = Color.FromArgb(42, 162, 255);
+                pictVacVac.BackColor = Color.FromArgb(42, 162, 255);
+                pictVacVac.Image = Image.FromFile(path + "/Resources/Vac White.png");
             }
 
             if (tabControl.SelectedIndex == 3)
             {
-                barAdminAdmin.BackColor = Color.CadetBlue;
+                barAdminAdmin.BackColor = Color.FromArgb(42, 162, 255);
+                lblAdminAdmin.ForeColor = Color.White;
+                lblAdminAdmin.BackColor = Color.FromArgb(42, 162, 255);
+                pictAdminAdmin.BackColor = Color.FromArgb(42, 162, 255);
+                pictAdminAdmin.Image = Image.FromFile(path + "/Resources/Admin White.png");
             }
 
             if (tabControl.SelectedIndex == 4)
             {
-                barSetSet.BackColor = Color.CadetBlue;
+                barSetSet.BackColor = Color.FromArgb(42, 162, 255);
+                lblSetSet.ForeColor = Color.White;
+                lblSetSet.BackColor = Color.FromArgb(42, 162, 255);
+                pictSetSet.BackColor = Color.FromArgb(42, 162, 255);
+                pictSetSet.Image = Image.FromFile(path + "/Resources/Gear White.png");
             }
 
         }
@@ -512,6 +547,11 @@ namespace HumanResources.View
         private void barExitSet_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is an easter egg");
         }
     }
 }

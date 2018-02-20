@@ -136,6 +136,7 @@
             this.barSetEmp = new System.Windows.Forms.PictureBox();
             this.barExitEmp = new System.Windows.Forms.PictureBox();
             this.tabControl = new System.Windows.Forms.TabControl();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabSettings.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictExitSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictSetSet)).BeginInit();
@@ -212,6 +213,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.barSetEmp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barExitEmp)).BeginInit();
             this.tabControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // colorDialog1
@@ -220,6 +222,7 @@
             // 
             // tabSettings
             // 
+            this.tabSettings.BackColor = System.Drawing.Color.White;
             this.tabSettings.Controls.Add(this.lblExitSet);
             this.tabSettings.Controls.Add(this.lblSetSet);
             this.tabSettings.Controls.Add(this.lblVacSet);
@@ -245,14 +248,14 @@
             this.tabSettings.Size = new System.Drawing.Size(841, 504);
             this.tabSettings.TabIndex = 4;
             this.tabSettings.Text = "Settings";
-            this.tabSettings.UseVisualStyleBackColor = true;
             // 
             // lblExitSet
             // 
             this.lblExitSet.AutoSize = true;
             this.lblExitSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblExitSet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblExitSet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblExitSet.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblExitSet.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblExitSet.Location = new System.Drawing.Point(38, 344);
             this.lblExitSet.Name = "lblExitSet";
             this.lblExitSet.Size = new System.Drawing.Size(24, 13);
@@ -264,8 +267,9 @@
             // 
             this.lblSetSet.AutoSize = true;
             this.lblSetSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblSetSet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblSetSet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblSetSet.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblSetSet.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblSetSet.Location = new System.Drawing.Point(38, 304);
             this.lblSetSet.Name = "lblSetSet";
             this.lblSetSet.Size = new System.Drawing.Size(45, 13);
@@ -277,8 +281,9 @@
             // 
             this.lblVacSet.AutoSize = true;
             this.lblVacSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblVacSet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblVacSet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblVacSet.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblVacSet.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblVacSet.Location = new System.Drawing.Point(38, 224);
             this.lblVacSet.Name = "lblVacSet";
             this.lblVacSet.Size = new System.Drawing.Size(54, 13);
@@ -290,8 +295,9 @@
             // 
             this.lblAdminSet.AutoSize = true;
             this.lblAdminSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblAdminSet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblAdminSet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblAdminSet.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblAdminSet.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblAdminSet.Location = new System.Drawing.Point(38, 264);
             this.lblAdminSet.Name = "lblAdminSet";
             this.lblAdminSet.Size = new System.Drawing.Size(72, 13);
@@ -303,8 +309,9 @@
             // 
             this.lblPaySet.AutoSize = true;
             this.lblPaySet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblPaySet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblPaySet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblPaySet.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblPaySet.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblPaySet.Location = new System.Drawing.Point(38, 184);
             this.lblPaySet.Name = "lblPaySet";
             this.lblPaySet.Size = new System.Drawing.Size(53, 13);
@@ -316,8 +323,9 @@
             // 
             this.lblEmpSet.AutoSize = true;
             this.lblEmpSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblEmpSet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblEmpSet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblEmpSet.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblEmpSet.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblEmpSet.Location = new System.Drawing.Point(38, 144);
             this.lblEmpSet.Name = "lblEmpSet";
             this.lblEmpSet.Size = new System.Drawing.Size(58, 13);
@@ -327,7 +335,7 @@
             // 
             // pictExitSet
             // 
-            this.pictExitSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictExitSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictExitSet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictExitSet.Image = ((System.Drawing.Image)(resources.GetObject("pictExitSet.Image")));
             this.pictExitSet.Location = new System.Drawing.Point(12, 340);
@@ -340,7 +348,7 @@
             // 
             // pictSetSet
             // 
-            this.pictSetSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictSetSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictSetSet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictSetSet.Image = ((System.Drawing.Image)(resources.GetObject("pictSetSet.Image")));
             this.pictSetSet.Location = new System.Drawing.Point(12, 300);
@@ -353,7 +361,7 @@
             // 
             // pictVacSet
             // 
-            this.pictVacSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictVacSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictVacSet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictVacSet.Image = ((System.Drawing.Image)(resources.GetObject("pictVacSet.Image")));
             this.pictVacSet.Location = new System.Drawing.Point(12, 220);
@@ -366,7 +374,7 @@
             // 
             // pictAdminSet
             // 
-            this.pictAdminSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictAdminSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictAdminSet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictAdminSet.Image = ((System.Drawing.Image)(resources.GetObject("pictAdminSet.Image")));
             this.pictAdminSet.Location = new System.Drawing.Point(12, 260);
@@ -379,7 +387,7 @@
             // 
             // pictPaySet
             // 
-            this.pictPaySet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictPaySet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictPaySet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictPaySet.Image = ((System.Drawing.Image)(resources.GetObject("pictPaySet.Image")));
             this.pictPaySet.Location = new System.Drawing.Point(12, 180);
@@ -392,7 +400,7 @@
             // 
             // pictEmpSet
             // 
-            this.pictEmpSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictEmpSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictEmpSet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictEmpSet.Image = ((System.Drawing.Image)(resources.GetObject("pictEmpSet.Image")));
             this.pictEmpSet.Location = new System.Drawing.Point(12, 140);
@@ -426,6 +434,7 @@
             // barEmpSet
             // 
             this.barEmpSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barEmpSet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barEmpSet.Location = new System.Drawing.Point(0, 133);
             this.barEmpSet.Name = "barEmpSet";
             this.barEmpSet.Size = new System.Drawing.Size(148, 41);
@@ -436,6 +445,7 @@
             // barPaySet
             // 
             this.barPaySet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barPaySet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barPaySet.Location = new System.Drawing.Point(0, 173);
             this.barPaySet.Name = "barPaySet";
             this.barPaySet.Size = new System.Drawing.Size(148, 41);
@@ -446,6 +456,7 @@
             // barVacSet
             // 
             this.barVacSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barVacSet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barVacSet.Location = new System.Drawing.Point(0, 213);
             this.barVacSet.Name = "barVacSet";
             this.barVacSet.Size = new System.Drawing.Size(148, 41);
@@ -456,6 +467,7 @@
             // barAdminSet
             // 
             this.barAdminSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barAdminSet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barAdminSet.Location = new System.Drawing.Point(0, 253);
             this.barAdminSet.Name = "barAdminSet";
             this.barAdminSet.Size = new System.Drawing.Size(148, 41);
@@ -466,6 +478,7 @@
             // barSetSet
             // 
             this.barSetSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barSetSet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barSetSet.Location = new System.Drawing.Point(0, 293);
             this.barSetSet.Name = "barSetSet";
             this.barSetSet.Size = new System.Drawing.Size(148, 41);
@@ -476,6 +489,7 @@
             // barExitSet
             // 
             this.barExitSet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barExitSet.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barExitSet.Location = new System.Drawing.Point(0, 334);
             this.barExitSet.Name = "barExitSet";
             this.barExitSet.Size = new System.Drawing.Size(148, 41);
@@ -485,6 +499,8 @@
             // 
             // tabAdministrators
             // 
+            this.tabAdministrators.BackColor = System.Drawing.Color.White;
+            this.tabAdministrators.Controls.Add(this.pictureBox1);
             this.tabAdministrators.Controls.Add(this.lblExitAdmin);
             this.tabAdministrators.Controls.Add(this.pictExitAdmin);
             this.tabAdministrators.Controls.Add(this.lblSetAdmin);
@@ -510,14 +526,14 @@
             this.tabAdministrators.Size = new System.Drawing.Size(841, 504);
             this.tabAdministrators.TabIndex = 3;
             this.tabAdministrators.Text = "Administrators";
-            this.tabAdministrators.UseVisualStyleBackColor = true;
             // 
             // lblExitAdmin
             // 
             this.lblExitAdmin.AutoSize = true;
             this.lblExitAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblExitAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblExitAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblExitAdmin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblExitAdmin.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblExitAdmin.Location = new System.Drawing.Point(38, 344);
             this.lblExitAdmin.Name = "lblExitAdmin";
             this.lblExitAdmin.Size = new System.Drawing.Size(24, 13);
@@ -527,7 +543,7 @@
             // 
             // pictExitAdmin
             // 
-            this.pictExitAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictExitAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictExitAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictExitAdmin.Image = ((System.Drawing.Image)(resources.GetObject("pictExitAdmin.Image")));
             this.pictExitAdmin.Location = new System.Drawing.Point(12, 340);
@@ -542,8 +558,9 @@
             // 
             this.lblSetAdmin.AutoSize = true;
             this.lblSetAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblSetAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblSetAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblSetAdmin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblSetAdmin.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblSetAdmin.Location = new System.Drawing.Point(38, 304);
             this.lblSetAdmin.Name = "lblSetAdmin";
             this.lblSetAdmin.Size = new System.Drawing.Size(45, 13);
@@ -555,8 +572,9 @@
             // 
             this.lblVacAdmin.AutoSize = true;
             this.lblVacAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblVacAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblVacAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblVacAdmin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblVacAdmin.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblVacAdmin.Location = new System.Drawing.Point(38, 224);
             this.lblVacAdmin.Name = "lblVacAdmin";
             this.lblVacAdmin.Size = new System.Drawing.Size(54, 13);
@@ -566,7 +584,7 @@
             // 
             // pictSetAdmin
             // 
-            this.pictSetAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictSetAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictSetAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictSetAdmin.Image = ((System.Drawing.Image)(resources.GetObject("pictSetAdmin.Image")));
             this.pictSetAdmin.Location = new System.Drawing.Point(12, 300);
@@ -581,8 +599,9 @@
             // 
             this.lblAdminAdmin.AutoSize = true;
             this.lblAdminAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblAdminAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblAdminAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblAdminAdmin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblAdminAdmin.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblAdminAdmin.Location = new System.Drawing.Point(38, 264);
             this.lblAdminAdmin.Name = "lblAdminAdmin";
             this.lblAdminAdmin.Size = new System.Drawing.Size(72, 13);
@@ -592,7 +611,7 @@
             // 
             // pictVacAdmin
             // 
-            this.pictVacAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictVacAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictVacAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictVacAdmin.Image = ((System.Drawing.Image)(resources.GetObject("pictVacAdmin.Image")));
             this.pictVacAdmin.Location = new System.Drawing.Point(12, 220);
@@ -607,8 +626,9 @@
             // 
             this.lblPayAdmin.AutoSize = true;
             this.lblPayAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblPayAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblPayAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblPayAdmin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblPayAdmin.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblPayAdmin.Location = new System.Drawing.Point(38, 184);
             this.lblPayAdmin.Name = "lblPayAdmin";
             this.lblPayAdmin.Size = new System.Drawing.Size(53, 13);
@@ -618,7 +638,7 @@
             // 
             // pictAdminAdmin
             // 
-            this.pictAdminAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictAdminAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictAdminAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictAdminAdmin.Image = ((System.Drawing.Image)(resources.GetObject("pictAdminAdmin.Image")));
             this.pictAdminAdmin.Location = new System.Drawing.Point(12, 260);
@@ -633,8 +653,9 @@
             // 
             this.lblEmpAdmin.AutoSize = true;
             this.lblEmpAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblEmpAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblEmpAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblEmpAdmin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblEmpAdmin.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblEmpAdmin.Location = new System.Drawing.Point(38, 144);
             this.lblEmpAdmin.Name = "lblEmpAdmin";
             this.lblEmpAdmin.Size = new System.Drawing.Size(58, 13);
@@ -644,7 +665,7 @@
             // 
             // pictPayAdmin
             // 
-            this.pictPayAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictPayAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictPayAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictPayAdmin.Image = ((System.Drawing.Image)(resources.GetObject("pictPayAdmin.Image")));
             this.pictPayAdmin.Location = new System.Drawing.Point(12, 180);
@@ -657,7 +678,7 @@
             // 
             // pictEmpAdmin
             // 
-            this.pictEmpAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictEmpAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictEmpAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictEmpAdmin.Image = ((System.Drawing.Image)(resources.GetObject("pictEmpAdmin.Image")));
             this.pictEmpAdmin.Location = new System.Drawing.Point(12, 140);
@@ -691,6 +712,7 @@
             // barEmpAdmin
             // 
             this.barEmpAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barEmpAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barEmpAdmin.Location = new System.Drawing.Point(0, 133);
             this.barEmpAdmin.Name = "barEmpAdmin";
             this.barEmpAdmin.Size = new System.Drawing.Size(148, 41);
@@ -701,6 +723,7 @@
             // barPayAdmin
             // 
             this.barPayAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barPayAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barPayAdmin.Location = new System.Drawing.Point(0, 173);
             this.barPayAdmin.Name = "barPayAdmin";
             this.barPayAdmin.Size = new System.Drawing.Size(148, 41);
@@ -711,6 +734,7 @@
             // barVacAdmin
             // 
             this.barVacAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barVacAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barVacAdmin.Location = new System.Drawing.Point(0, 213);
             this.barVacAdmin.Name = "barVacAdmin";
             this.barVacAdmin.Size = new System.Drawing.Size(148, 41);
@@ -721,6 +745,7 @@
             // barAdminAdmin
             // 
             this.barAdminAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barAdminAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barAdminAdmin.Location = new System.Drawing.Point(0, 253);
             this.barAdminAdmin.Name = "barAdminAdmin";
             this.barAdminAdmin.Size = new System.Drawing.Size(148, 41);
@@ -731,6 +756,7 @@
             // barSetAdmin
             // 
             this.barSetAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barSetAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barSetAdmin.Location = new System.Drawing.Point(0, 293);
             this.barSetAdmin.Name = "barSetAdmin";
             this.barSetAdmin.Size = new System.Drawing.Size(148, 41);
@@ -741,6 +767,7 @@
             // barExitAdmin
             // 
             this.barExitAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barExitAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barExitAdmin.Location = new System.Drawing.Point(0, 334);
             this.barExitAdmin.Name = "barExitAdmin";
             this.barExitAdmin.Size = new System.Drawing.Size(148, 41);
@@ -750,6 +777,7 @@
             // 
             // tabVacations
             // 
+            this.tabVacations.BackColor = System.Drawing.Color.White;
             this.tabVacations.Controls.Add(this.lblExitVac);
             this.tabVacations.Controls.Add(this.pictExitVac);
             this.tabVacations.Controls.Add(this.lblSetVac);
@@ -775,14 +803,14 @@
             this.tabVacations.Size = new System.Drawing.Size(841, 504);
             this.tabVacations.TabIndex = 2;
             this.tabVacations.Text = "Vacations";
-            this.tabVacations.UseVisualStyleBackColor = true;
             // 
             // lblExitVac
             // 
             this.lblExitVac.AutoSize = true;
             this.lblExitVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblExitVac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblExitVac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblExitVac.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblExitVac.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblExitVac.Location = new System.Drawing.Point(38, 344);
             this.lblExitVac.Name = "lblExitVac";
             this.lblExitVac.Size = new System.Drawing.Size(24, 13);
@@ -792,7 +820,7 @@
             // 
             // pictExitVac
             // 
-            this.pictExitVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictExitVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictExitVac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictExitVac.Image = ((System.Drawing.Image)(resources.GetObject("pictExitVac.Image")));
             this.pictExitVac.Location = new System.Drawing.Point(12, 340);
@@ -807,8 +835,9 @@
             // 
             this.lblSetVac.AutoSize = true;
             this.lblSetVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblSetVac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblSetVac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblSetVac.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblSetVac.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblSetVac.Location = new System.Drawing.Point(38, 304);
             this.lblSetVac.Name = "lblSetVac";
             this.lblSetVac.Size = new System.Drawing.Size(45, 13);
@@ -820,8 +849,9 @@
             // 
             this.lblVacVac.AutoSize = true;
             this.lblVacVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblVacVac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblVacVac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblVacVac.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblVacVac.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblVacVac.Location = new System.Drawing.Point(38, 224);
             this.lblVacVac.Name = "lblVacVac";
             this.lblVacVac.Size = new System.Drawing.Size(54, 13);
@@ -831,7 +861,7 @@
             // 
             // pictSetVac
             // 
-            this.pictSetVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictSetVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictSetVac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictSetVac.Image = ((System.Drawing.Image)(resources.GetObject("pictSetVac.Image")));
             this.pictSetVac.Location = new System.Drawing.Point(12, 300);
@@ -846,8 +876,9 @@
             // 
             this.lblAdminVac.AutoSize = true;
             this.lblAdminVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblAdminVac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblAdminVac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblAdminVac.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblAdminVac.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblAdminVac.Location = new System.Drawing.Point(38, 264);
             this.lblAdminVac.Name = "lblAdminVac";
             this.lblAdminVac.Size = new System.Drawing.Size(72, 13);
@@ -857,7 +888,7 @@
             // 
             // pictVacVac
             // 
-            this.pictVacVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictVacVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictVacVac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictVacVac.Image = ((System.Drawing.Image)(resources.GetObject("pictVacVac.Image")));
             this.pictVacVac.Location = new System.Drawing.Point(12, 220);
@@ -872,8 +903,9 @@
             // 
             this.lblPayVac.AutoSize = true;
             this.lblPayVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblPayVac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblPayVac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblPayVac.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblPayVac.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblPayVac.Location = new System.Drawing.Point(38, 184);
             this.lblPayVac.Name = "lblPayVac";
             this.lblPayVac.Size = new System.Drawing.Size(53, 13);
@@ -883,7 +915,7 @@
             // 
             // pictAdminVac
             // 
-            this.pictAdminVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictAdminVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictAdminVac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictAdminVac.Image = ((System.Drawing.Image)(resources.GetObject("pictAdminVac.Image")));
             this.pictAdminVac.Location = new System.Drawing.Point(12, 260);
@@ -898,8 +930,9 @@
             // 
             this.lblEmpVac.AutoSize = true;
             this.lblEmpVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblEmpVac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblEmpVac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblEmpVac.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblEmpVac.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblEmpVac.Location = new System.Drawing.Point(38, 144);
             this.lblEmpVac.Name = "lblEmpVac";
             this.lblEmpVac.Size = new System.Drawing.Size(58, 13);
@@ -909,7 +942,7 @@
             // 
             // pictPayVac
             // 
-            this.pictPayVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictPayVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictPayVac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictPayVac.Image = ((System.Drawing.Image)(resources.GetObject("pictPayVac.Image")));
             this.pictPayVac.Location = new System.Drawing.Point(12, 180);
@@ -922,7 +955,7 @@
             // 
             // pictEmpVac
             // 
-            this.pictEmpVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictEmpVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictEmpVac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictEmpVac.Image = ((System.Drawing.Image)(resources.GetObject("pictEmpVac.Image")));
             this.pictEmpVac.Location = new System.Drawing.Point(12, 140);
@@ -937,7 +970,7 @@
             // 
             this.pictBot3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictBot3.Enabled = false;
-            this.pictBot3.Location = new System.Drawing.Point(3, 381);
+            this.pictBot3.Location = new System.Drawing.Point(0, 373);
             this.pictBot3.Name = "pictBot3";
             this.pictBot3.Size = new System.Drawing.Size(148, 94);
             this.pictBot3.TabIndex = 61;
@@ -956,6 +989,7 @@
             // barEmpVac
             // 
             this.barEmpVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barEmpVac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barEmpVac.Location = new System.Drawing.Point(0, 133);
             this.barEmpVac.Name = "barEmpVac";
             this.barEmpVac.Size = new System.Drawing.Size(148, 41);
@@ -966,6 +1000,7 @@
             // barPayVac
             // 
             this.barPayVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barPayVac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barPayVac.Location = new System.Drawing.Point(0, 173);
             this.barPayVac.Name = "barPayVac";
             this.barPayVac.Size = new System.Drawing.Size(148, 41);
@@ -976,6 +1011,7 @@
             // barVacVac
             // 
             this.barVacVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barVacVac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barVacVac.Location = new System.Drawing.Point(0, 213);
             this.barVacVac.Name = "barVacVac";
             this.barVacVac.Size = new System.Drawing.Size(148, 41);
@@ -986,6 +1022,7 @@
             // barAdminVac
             // 
             this.barAdminVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barAdminVac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barAdminVac.Location = new System.Drawing.Point(0, 253);
             this.barAdminVac.Name = "barAdminVac";
             this.barAdminVac.Size = new System.Drawing.Size(148, 41);
@@ -996,6 +1033,7 @@
             // barSetVac
             // 
             this.barSetVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barSetVac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barSetVac.Location = new System.Drawing.Point(0, 293);
             this.barSetVac.Name = "barSetVac";
             this.barSetVac.Size = new System.Drawing.Size(148, 41);
@@ -1006,6 +1044,7 @@
             // barExitVac
             // 
             this.barExitVac.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barExitVac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barExitVac.Location = new System.Drawing.Point(0, 334);
             this.barExitVac.Name = "barExitVac";
             this.barExitVac.Size = new System.Drawing.Size(148, 41);
@@ -1015,6 +1054,7 @@
             // 
             // tabPayments
             // 
+            this.tabPayments.BackColor = System.Drawing.Color.White;
             this.tabPayments.Controls.Add(this.lblExitPay);
             this.tabPayments.Controls.Add(this.pictExitPay);
             this.tabPayments.Controls.Add(this.lblSetPay);
@@ -1041,14 +1081,14 @@
             this.tabPayments.Size = new System.Drawing.Size(841, 504);
             this.tabPayments.TabIndex = 1;
             this.tabPayments.Text = "Payments";
-            this.tabPayments.UseVisualStyleBackColor = true;
             // 
             // lblExitPay
             // 
             this.lblExitPay.AutoSize = true;
             this.lblExitPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblExitPay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblExitPay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblExitPay.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblExitPay.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblExitPay.Location = new System.Drawing.Point(38, 344);
             this.lblExitPay.Name = "lblExitPay";
             this.lblExitPay.Size = new System.Drawing.Size(24, 13);
@@ -1058,7 +1098,7 @@
             // 
             // pictExitPay
             // 
-            this.pictExitPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictExitPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictExitPay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictExitPay.Image = ((System.Drawing.Image)(resources.GetObject("pictExitPay.Image")));
             this.pictExitPay.Location = new System.Drawing.Point(12, 340);
@@ -1073,8 +1113,9 @@
             // 
             this.lblSetPay.AutoSize = true;
             this.lblSetPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblSetPay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblSetPay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblSetPay.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblSetPay.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblSetPay.Location = new System.Drawing.Point(38, 304);
             this.lblSetPay.Name = "lblSetPay";
             this.lblSetPay.Size = new System.Drawing.Size(45, 13);
@@ -1086,8 +1127,9 @@
             // 
             this.lblVacPay.AutoSize = true;
             this.lblVacPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblVacPay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblVacPay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblVacPay.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblVacPay.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblVacPay.Location = new System.Drawing.Point(38, 224);
             this.lblVacPay.Name = "lblVacPay";
             this.lblVacPay.Size = new System.Drawing.Size(54, 13);
@@ -1097,7 +1139,7 @@
             // 
             // pictSetPay
             // 
-            this.pictSetPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictSetPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictSetPay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictSetPay.Image = ((System.Drawing.Image)(resources.GetObject("pictSetPay.Image")));
             this.pictSetPay.Location = new System.Drawing.Point(12, 300);
@@ -1112,8 +1154,9 @@
             // 
             this.lblAdminPay.AutoSize = true;
             this.lblAdminPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblAdminPay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblAdminPay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblAdminPay.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblAdminPay.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblAdminPay.Location = new System.Drawing.Point(38, 264);
             this.lblAdminPay.Name = "lblAdminPay";
             this.lblAdminPay.Size = new System.Drawing.Size(72, 13);
@@ -1123,7 +1166,7 @@
             // 
             // pictVacPay
             // 
-            this.pictVacPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictVacPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictVacPay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictVacPay.Image = ((System.Drawing.Image)(resources.GetObject("pictVacPay.Image")));
             this.pictVacPay.Location = new System.Drawing.Point(12, 220);
@@ -1138,8 +1181,9 @@
             // 
             this.lblPayPay.AutoSize = true;
             this.lblPayPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblPayPay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblPayPay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblPayPay.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblPayPay.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblPayPay.Location = new System.Drawing.Point(38, 184);
             this.lblPayPay.Name = "lblPayPay";
             this.lblPayPay.Size = new System.Drawing.Size(53, 13);
@@ -1149,7 +1193,7 @@
             // 
             // pictAdminPay
             // 
-            this.pictAdminPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictAdminPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictAdminPay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictAdminPay.Image = ((System.Drawing.Image)(resources.GetObject("pictAdminPay.Image")));
             this.pictAdminPay.Location = new System.Drawing.Point(12, 260);
@@ -1164,8 +1208,9 @@
             // 
             this.lblEmpPay.AutoSize = true;
             this.lblEmpPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblEmpPay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblEmpPay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblEmpPay.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblEmpPay.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblEmpPay.Location = new System.Drawing.Point(38, 144);
             this.lblEmpPay.Name = "lblEmpPay";
             this.lblEmpPay.Size = new System.Drawing.Size(58, 13);
@@ -1175,7 +1220,7 @@
             // 
             // pictPayPay
             // 
-            this.pictPayPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictPayPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictPayPay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictPayPay.Image = ((System.Drawing.Image)(resources.GetObject("pictPayPay.Image")));
             this.pictPayPay.Location = new System.Drawing.Point(12, 180);
@@ -1188,7 +1233,7 @@
             // 
             // pictEmpPay
             // 
-            this.pictEmpPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictEmpPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictEmpPay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictEmpPay.Image = ((System.Drawing.Image)(resources.GetObject("pictEmpPay.Image")));
             this.pictEmpPay.Location = new System.Drawing.Point(12, 140);
@@ -1222,6 +1267,7 @@
             // barEmpPay
             // 
             this.barEmpPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barEmpPay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barEmpPay.Location = new System.Drawing.Point(0, 133);
             this.barEmpPay.Name = "barEmpPay";
             this.barEmpPay.Size = new System.Drawing.Size(148, 41);
@@ -1232,6 +1278,7 @@
             // barPayPay
             // 
             this.barPayPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barPayPay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barPayPay.Location = new System.Drawing.Point(0, 173);
             this.barPayPay.Name = "barPayPay";
             this.barPayPay.Size = new System.Drawing.Size(148, 41);
@@ -1242,6 +1289,7 @@
             // barVacPay
             // 
             this.barVacPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barVacPay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barVacPay.Location = new System.Drawing.Point(0, 213);
             this.barVacPay.Name = "barVacPay";
             this.barVacPay.Size = new System.Drawing.Size(148, 41);
@@ -1252,6 +1300,7 @@
             // barAdminPay
             // 
             this.barAdminPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barAdminPay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barAdminPay.Location = new System.Drawing.Point(0, 253);
             this.barAdminPay.Name = "barAdminPay";
             this.barAdminPay.Size = new System.Drawing.Size(148, 41);
@@ -1262,6 +1311,7 @@
             // pictureBox14
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.pictureBox14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox14.Location = new System.Drawing.Point(0, 293);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(148, 41);
@@ -1272,6 +1322,7 @@
             // barExitPay
             // 
             this.barExitPay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barExitPay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barExitPay.Location = new System.Drawing.Point(0, 334);
             this.barExitPay.Name = "barExitPay";
             this.barExitPay.Size = new System.Drawing.Size(148, 41);
@@ -1315,7 +1366,7 @@
             this.pictBot1.Enabled = false;
             this.pictBot1.Location = new System.Drawing.Point(0, 375);
             this.pictBot1.Name = "pictBot1";
-            this.pictBot1.Size = new System.Drawing.Size(148, 94);
+            this.pictBot1.Size = new System.Drawing.Size(148, 123);
             this.pictBot1.TabIndex = 35;
             this.pictBot1.TabStop = false;
             // 
@@ -1323,8 +1374,9 @@
             // 
             this.lblExitEmp.AutoSize = true;
             this.lblExitEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblExitEmp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblExitEmp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblExitEmp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblExitEmp.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblExitEmp.Location = new System.Drawing.Point(38, 344);
             this.lblExitEmp.Name = "lblExitEmp";
             this.lblExitEmp.Size = new System.Drawing.Size(24, 13);
@@ -1336,8 +1388,9 @@
             // 
             this.lblSetEmp.AutoSize = true;
             this.lblSetEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblSetEmp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblSetEmp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblSetEmp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblSetEmp.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblSetEmp.Location = new System.Drawing.Point(38, 304);
             this.lblSetEmp.Name = "lblSetEmp";
             this.lblSetEmp.Size = new System.Drawing.Size(45, 13);
@@ -1349,8 +1402,9 @@
             // 
             this.lblVacEmp.AutoSize = true;
             this.lblVacEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblVacEmp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblVacEmp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblVacEmp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblVacEmp.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblVacEmp.Location = new System.Drawing.Point(38, 224);
             this.lblVacEmp.Name = "lblVacEmp";
             this.lblVacEmp.Size = new System.Drawing.Size(54, 13);
@@ -1362,8 +1416,9 @@
             // 
             this.llblAdminEmp.AutoSize = true;
             this.llblAdminEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.llblAdminEmp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.llblAdminEmp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.llblAdminEmp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.llblAdminEmp.ForeColor = System.Drawing.SystemColors.Highlight;
             this.llblAdminEmp.Location = new System.Drawing.Point(38, 264);
             this.llblAdminEmp.Name = "llblAdminEmp";
             this.llblAdminEmp.Size = new System.Drawing.Size(72, 13);
@@ -1375,8 +1430,9 @@
             // 
             this.lblPayEmp.AutoSize = true;
             this.lblPayEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblPayEmp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblPayEmp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblPayEmp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblPayEmp.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblPayEmp.Location = new System.Drawing.Point(38, 184);
             this.lblPayEmp.Name = "lblPayEmp";
             this.lblPayEmp.Size = new System.Drawing.Size(53, 13);
@@ -1388,8 +1444,9 @@
             // 
             this.lblEmpEmp.AutoSize = true;
             this.lblEmpEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.lblEmpEmp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblEmpEmp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblEmpEmp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.lblEmpEmp.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lblEmpEmp.Location = new System.Drawing.Point(38, 144);
             this.lblEmpEmp.Name = "lblEmpEmp";
             this.lblEmpEmp.Size = new System.Drawing.Size(58, 13);
@@ -1399,7 +1456,7 @@
             // 
             // pictExitEmp
             // 
-            this.pictExitEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictExitEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictExitEmp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictExitEmp.Image = ((System.Drawing.Image)(resources.GetObject("pictExitEmp.Image")));
             this.pictExitEmp.Location = new System.Drawing.Point(12, 340);
@@ -1412,7 +1469,7 @@
             // 
             // pictSetEmp
             // 
-            this.pictSetEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictSetEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictSetEmp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictSetEmp.Image = ((System.Drawing.Image)(resources.GetObject("pictSetEmp.Image")));
             this.pictSetEmp.Location = new System.Drawing.Point(12, 300);
@@ -1425,7 +1482,7 @@
             // 
             // pictAdminEmp
             // 
-            this.pictAdminEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictAdminEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictAdminEmp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictAdminEmp.Image = ((System.Drawing.Image)(resources.GetObject("pictAdminEmp.Image")));
             this.pictAdminEmp.Location = new System.Drawing.Point(12, 260);
@@ -1438,7 +1495,7 @@
             // 
             // pictVacEmp
             // 
-            this.pictVacEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictVacEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictVacEmp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictVacEmp.Image = ((System.Drawing.Image)(resources.GetObject("pictVacEmp.Image")));
             this.pictVacEmp.Location = new System.Drawing.Point(12, 220);
@@ -1451,7 +1508,7 @@
             // 
             // pictPayEmp
             // 
-            this.pictPayEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictPayEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictPayEmp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictPayEmp.Image = ((System.Drawing.Image)(resources.GetObject("pictPayEmp.Image")));
             this.pictPayEmp.Location = new System.Drawing.Point(12, 180);
@@ -1464,7 +1521,7 @@
             // 
             // pictEmpEmp
             // 
-            this.pictEmpEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictEmpEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pictEmpEmp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictEmpEmp.Image = ((System.Drawing.Image)(resources.GetObject("pictEmpEmp.Image")));
             this.pictEmpEmp.Location = new System.Drawing.Point(12, 140);
@@ -1488,6 +1545,7 @@
             // barEmpEmp
             // 
             this.barEmpEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barEmpEmp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barEmpEmp.Location = new System.Drawing.Point(0, 133);
             this.barEmpEmp.Name = "barEmpEmp";
             this.barEmpEmp.Size = new System.Drawing.Size(148, 41);
@@ -1498,6 +1556,7 @@
             // barPayEmp
             // 
             this.barPayEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barPayEmp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barPayEmp.Location = new System.Drawing.Point(0, 173);
             this.barPayEmp.Name = "barPayEmp";
             this.barPayEmp.Size = new System.Drawing.Size(148, 41);
@@ -1508,6 +1567,7 @@
             // barVacEmp
             // 
             this.barVacEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barVacEmp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barVacEmp.Location = new System.Drawing.Point(0, 213);
             this.barVacEmp.Name = "barVacEmp";
             this.barVacEmp.Size = new System.Drawing.Size(148, 41);
@@ -1518,6 +1578,7 @@
             // barAdminEmp
             // 
             this.barAdminEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barAdminEmp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barAdminEmp.Location = new System.Drawing.Point(0, 253);
             this.barAdminEmp.Name = "barAdminEmp";
             this.barAdminEmp.Size = new System.Drawing.Size(148, 41);
@@ -1528,6 +1589,7 @@
             // barSetEmp
             // 
             this.barSetEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barSetEmp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barSetEmp.Location = new System.Drawing.Point(0, 293);
             this.barSetEmp.Name = "barSetEmp";
             this.barSetEmp.Size = new System.Drawing.Size(148, 41);
@@ -1538,6 +1600,7 @@
             // barExitEmp
             // 
             this.barExitEmp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.barExitEmp.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barExitEmp.Location = new System.Drawing.Point(0, 334);
             this.barExitEmp.Name = "barExitEmp";
             this.barExitEmp.Size = new System.Drawing.Size(148, 41);
@@ -1553,7 +1616,7 @@
             this.tabControl.Controls.Add(this.tabVacations);
             this.tabControl.Controls.Add(this.tabAdministrators);
             this.tabControl.Controls.Add(this.tabSettings);
-            this.tabControl.Location = new System.Drawing.Point(-4, 0);
+            this.tabControl.Location = new System.Drawing.Point(-4, -26);
             this.tabControl.Multiline = true;
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
@@ -1561,6 +1624,19 @@
             this.tabControl.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabControl.TabIndex = 28;
             this.tabControl.SelectedIndexChanged += new System.EventHandler(this.tabControl_SelectedIndexChanged);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(38, 16);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(69, 93);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 75;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // MainMenu
             // 
@@ -1660,6 +1736,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.barSetEmp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.barExitEmp)).EndInit();
             this.tabControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1772,5 +1849,6 @@
         private System.Windows.Forms.PictureBox barAdminSet;
         private System.Windows.Forms.PictureBox barSetSet;
         private System.Windows.Forms.PictureBox barExitSet;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
