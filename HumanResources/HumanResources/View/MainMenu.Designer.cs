@@ -52,6 +52,7 @@
             this.barSetSet = new System.Windows.Forms.PictureBox();
             this.barExitSet = new System.Windows.Forms.PictureBox();
             this.tabAdministrators = new System.Windows.Forms.TabPage();
+            this.iconAdmin = new System.Windows.Forms.PictureBox();
             this.lblExitAdmin = new System.Windows.Forms.Label();
             this.pictExitAdmin = new System.Windows.Forms.PictureBox();
             this.lblSetAdmin = new System.Windows.Forms.Label();
@@ -136,7 +137,10 @@
             this.barSetEmp = new System.Windows.Forms.PictureBox();
             this.barExitEmp = new System.Windows.Forms.PictureBox();
             this.tabControl = new System.Windows.Forms.TabControl();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.iconEmp = new System.Windows.Forms.PictureBox();
+            this.iconPay = new System.Windows.Forms.PictureBox();
+            this.iconVac = new System.Windows.Forms.PictureBox();
+            this.iconSet = new System.Windows.Forms.PictureBox();
             this.tabSettings.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictExitSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictSetSet)).BeginInit();
@@ -153,6 +157,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.barSetSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barExitSet)).BeginInit();
             this.tabAdministrators.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconAdmin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictExitAdmin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictSetAdmin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictVacAdmin)).BeginInit();
@@ -213,7 +218,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.barSetEmp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barExitEmp)).BeginInit();
             this.tabControl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconEmp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPay)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconVac)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconSet)).BeginInit();
             this.SuspendLayout();
             // 
             // colorDialog1
@@ -223,6 +231,7 @@
             // tabSettings
             // 
             this.tabSettings.BackColor = System.Drawing.Color.White;
+            this.tabSettings.Controls.Add(this.iconSet);
             this.tabSettings.Controls.Add(this.lblExitSet);
             this.tabSettings.Controls.Add(this.lblSetSet);
             this.tabSettings.Controls.Add(this.lblVacSet);
@@ -500,7 +509,7 @@
             // tabAdministrators
             // 
             this.tabAdministrators.BackColor = System.Drawing.Color.White;
-            this.tabAdministrators.Controls.Add(this.pictureBox1);
+            this.tabAdministrators.Controls.Add(this.iconAdmin);
             this.tabAdministrators.Controls.Add(this.lblExitAdmin);
             this.tabAdministrators.Controls.Add(this.pictExitAdmin);
             this.tabAdministrators.Controls.Add(this.lblSetAdmin);
@@ -526,6 +535,19 @@
             this.tabAdministrators.Size = new System.Drawing.Size(841, 504);
             this.tabAdministrators.TabIndex = 3;
             this.tabAdministrators.Text = "Administrators";
+            // 
+            // iconAdmin
+            // 
+            this.iconAdmin.BackColor = System.Drawing.SystemColors.Highlight;
+            this.iconAdmin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.iconAdmin.Image = ((System.Drawing.Image)(resources.GetObject("iconAdmin.Image")));
+            this.iconAdmin.Location = new System.Drawing.Point(22, 13);
+            this.iconAdmin.Name = "iconAdmin";
+            this.iconAdmin.Size = new System.Drawing.Size(100, 100);
+            this.iconAdmin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.iconAdmin.TabIndex = 75;
+            this.iconAdmin.TabStop = false;
+            this.iconAdmin.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // lblExitAdmin
             // 
@@ -778,6 +800,7 @@
             // tabVacations
             // 
             this.tabVacations.BackColor = System.Drawing.Color.White;
+            this.tabVacations.Controls.Add(this.iconVac);
             this.tabVacations.Controls.Add(this.lblExitVac);
             this.tabVacations.Controls.Add(this.pictExitVac);
             this.tabVacations.Controls.Add(this.lblSetVac);
@@ -1055,6 +1078,7 @@
             // tabPayments
             // 
             this.tabPayments.BackColor = System.Drawing.Color.White;
+            this.tabPayments.Controls.Add(this.iconPay);
             this.tabPayments.Controls.Add(this.lblExitPay);
             this.tabPayments.Controls.Add(this.pictExitPay);
             this.tabPayments.Controls.Add(this.lblSetPay);
@@ -1333,6 +1357,7 @@
             // tabEmployees
             // 
             this.tabEmployees.BackColor = System.Drawing.Color.White;
+            this.tabEmployees.Controls.Add(this.iconEmp);
             this.tabEmployees.Controls.Add(this.pictBot1);
             this.tabEmployees.Controls.Add(this.lblExitEmp);
             this.tabEmployees.Controls.Add(this.lblSetEmp);
@@ -1616,7 +1641,7 @@
             this.tabControl.Controls.Add(this.tabVacations);
             this.tabControl.Controls.Add(this.tabAdministrators);
             this.tabControl.Controls.Add(this.tabSettings);
-            this.tabControl.Location = new System.Drawing.Point(-4, -26);
+            this.tabControl.Location = new System.Drawing.Point(-4, 1);
             this.tabControl.Multiline = true;
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
@@ -1625,18 +1650,54 @@
             this.tabControl.TabIndex = 28;
             this.tabControl.SelectedIndexChanged += new System.EventHandler(this.tabControl_SelectedIndexChanged);
             // 
-            // pictureBox1
+            // iconEmp
             // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(38, 16);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(69, 93);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 75;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.iconEmp.BackColor = System.Drawing.SystemColors.Highlight;
+            this.iconEmp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.iconEmp.Image = ((System.Drawing.Image)(resources.GetObject("iconEmp.Image")));
+            this.iconEmp.Location = new System.Drawing.Point(22, 13);
+            this.iconEmp.Name = "iconEmp";
+            this.iconEmp.Size = new System.Drawing.Size(100, 100);
+            this.iconEmp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.iconEmp.TabIndex = 76;
+            this.iconEmp.TabStop = false;
+            this.iconEmp.Click += new System.EventHandler(this.iconEmp_Click);
+            // 
+            // iconPay
+            // 
+            this.iconPay.BackColor = System.Drawing.SystemColors.Highlight;
+            this.iconPay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.iconPay.Image = ((System.Drawing.Image)(resources.GetObject("iconPay.Image")));
+            this.iconPay.Location = new System.Drawing.Point(22, 13);
+            this.iconPay.Name = "iconPay";
+            this.iconPay.Size = new System.Drawing.Size(100, 100);
+            this.iconPay.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.iconPay.TabIndex = 76;
+            this.iconPay.TabStop = false;
+            // 
+            // iconVac
+            // 
+            this.iconVac.BackColor = System.Drawing.SystemColors.Highlight;
+            this.iconVac.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.iconVac.Image = ((System.Drawing.Image)(resources.GetObject("iconVac.Image")));
+            this.iconVac.Location = new System.Drawing.Point(22, 13);
+            this.iconVac.Name = "iconVac";
+            this.iconVac.Size = new System.Drawing.Size(100, 100);
+            this.iconVac.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.iconVac.TabIndex = 76;
+            this.iconVac.TabStop = false;
+            // 
+            // iconSet
+            // 
+            this.iconSet.BackColor = System.Drawing.SystemColors.Highlight;
+            this.iconSet.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.iconSet.Image = ((System.Drawing.Image)(resources.GetObject("iconSet.Image")));
+            this.iconSet.Location = new System.Drawing.Point(22, 13);
+            this.iconSet.Name = "iconSet";
+            this.iconSet.Size = new System.Drawing.Size(100, 100);
+            this.iconSet.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.iconSet.TabIndex = 83;
+            this.iconSet.TabStop = false;
             // 
             // MainMenu
             // 
@@ -1673,6 +1734,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.barExitSet)).EndInit();
             this.tabAdministrators.ResumeLayout(false);
             this.tabAdministrators.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconAdmin)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictExitAdmin)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictSetAdmin)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictVacAdmin)).EndInit();
@@ -1736,7 +1798,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.barSetEmp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.barExitEmp)).EndInit();
             this.tabControl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconEmp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconPay)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconVac)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.iconSet)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1849,6 +1914,10 @@
         private System.Windows.Forms.PictureBox barAdminSet;
         private System.Windows.Forms.PictureBox barSetSet;
         private System.Windows.Forms.PictureBox barExitSet;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox iconAdmin;
+        private System.Windows.Forms.PictureBox iconSet;
+        private System.Windows.Forms.PictureBox iconVac;
+        private System.Windows.Forms.PictureBox iconPay;
+        private System.Windows.Forms.PictureBox iconEmp;
     }
 }

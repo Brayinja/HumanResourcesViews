@@ -553,5 +553,10 @@ namespace HumanResources.View
         {
             MessageBox.Show("This is an easter egg");
         }
+
+        private void iconEmp_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
